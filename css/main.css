@@ -1,0 +1,60 @@
+body{font-size:16px;
+background-color:#696969;}
+
+.hidden{display:none;}
+
+
+
+#logo-header
+{
+	margin-left:10px;
+	height: 100px;
+	width:250px;
+}
+#logoSVG
+{
+	width:250px;
+	height:100px;
+
+}
+
+.main-headLine {
+	text-align:center;
+	margin:20px 0 30px;
+	font-size: 1.9rem;
+	text-shadow: 1px 2px 2px #000000;
+}
+#image-container
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+
+}
+
+
+#image-container img
+  {
+  	width: 30%;
+  	min-width:155px;
+    max-width:375px;
+    align-self:center;
+    margin: 0 10px;
+}
+
+#image-container img
+{
+  filter: grayscale(100%);
+}
+
+#image-container img:hover
+
+{
+  filter: grayscale(0%);
+}
+
+#image-container h2
+{
+flex-direction: column;
+text-shadow: 1px 2px 2px #000000;
+}
