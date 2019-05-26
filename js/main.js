@@ -14,6 +14,7 @@
  	}
  	function swapText(){
  		mainHeadLine.textContent = "People said the Age of Heroes would never come again._Diana Prince";
+ 		
 
  	}
 
