@@ -3,7 +3,8 @@ background-color:#696969;}
 
 .hidden{display:none;}
 
-
+*
+{box-sizing: border-box;}
 
 #logo-header
 {
@@ -56,7 +57,8 @@ background-color:#696969;}
 
 .switch-type
 {
-	background-color: #4CAF50; 
+	background-color: #4CAF50;
+	object-position: center; 
   border: none;
   color: white;
   padding: 15px 32px;
